@@ -21,14 +21,8 @@ public class Sale {
 	private double amount;
 	private LocalDate date;
 	
-	public Sale(Long _id, String _sellerName, Integer _visited, Integer _deals,
-				double _amount, LocalDate _date) {
-		this.id = _id;
-		this.sellerName = _sellerName;
-		this.visited = _visited;
-		this.deals = _deals;
-		this.amount = _amount;
-		this.date = _date;
+	public Sale() {
+		
 	}
 
 	public Long getId() {
